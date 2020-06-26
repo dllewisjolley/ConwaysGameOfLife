@@ -39,7 +39,7 @@ class PresetCell: UITableViewCell {
 
         contentView.layer.cornerRadius = 10
         contentView.layer.borderWidth = 0.5
-        contentView.layer.backgroundColor = UIColor.clear.cgColor
+        contentView.layer.backgroundColor = UIColor.white.cgColor
         contentView.backgroundColor = UIColor(white: 1, alpha: 0.40)
         layer.backgroundColor = UIColor.clear.cgColor
     }

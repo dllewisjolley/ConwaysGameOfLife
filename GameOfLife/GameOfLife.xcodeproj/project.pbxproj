@@ -17,6 +17,8 @@
 		AC68E25024A62944009DD0D1 /* PresetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68E24F24A62944009DD0D1 /* PresetCell.swift */; };
 		AC68E25224A629FE009DD0D1 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68E25124A629FE009DD0D1 /* Grid.swift */; };
 		AC68E25424A62B7E009DD0D1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68E25324A62B7E009DD0D1 /* Settings.swift */; };
+		AC68E25624A62C76009DD0D1 /* GOLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68E25524A62C76009DD0D1 /* GOLViewController.swift */; };
+		AC68E25824A62CD9009DD0D1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68E25724A62CD9009DD0D1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AC68E24F24A62944009DD0D1 /* PresetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCell.swift; sourceTree = "<group>"; };
 		AC68E25124A629FE009DD0D1 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		AC68E25324A62B7E009DD0D1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AC68E25524A62C76009DD0D1 /* GOLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOLViewController.swift; sourceTree = "<group>"; };
+		AC68E25724A62CD9009DD0D1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				AC68E24F24A62944009DD0D1 /* PresetCell.swift */,
 				AC68E25124A629FE009DD0D1 /* Grid.swift */,
 				AC68E25324A62B7E009DD0D1 /* Settings.swift */,
+				AC68E25524A62C76009DD0D1 /* GOLViewController.swift */,
+				AC68E25724A62CD9009DD0D1 /* SettingsViewController.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -153,10 +159,12 @@
 				AC68E25024A62944009DD0D1 /* PresetCell.swift in Sources */,
 				AC68E24C24A628AD009DD0D1 /* ShapePreset.swift in Sources */,
 				AC68E24E24A62907009DD0D1 /* Cell.swift in Sources */,
+				AC68E25624A62C76009DD0D1 /* GOLViewController.swift in Sources */,
 				AC68E23824A5321F009DD0D1 /* AppDelegate.swift in Sources */,
 				AC68E25424A62B7E009DD0D1 /* Settings.swift in Sources */,
 				AC68E23A24A5321F009DD0D1 /* SceneDelegate.swift in Sources */,
 				AC68E25224A629FE009DD0D1 /* Grid.swift in Sources */,
+				AC68E25824A62CD9009DD0D1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

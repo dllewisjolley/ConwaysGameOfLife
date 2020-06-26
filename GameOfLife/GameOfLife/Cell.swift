@@ -44,7 +44,7 @@ class Cell: UIView {
     }
     
     func configureView() {
-        self.backgroundColor = UIColor(white: 1, alpha: 0.20)
+        self.backgroundColor = UIColor(white: 5, alpha: 0.20)
         
         self.layer.borderColor = UIColor.lightGray.cgColor
         self.layer.borderWidth = 1
