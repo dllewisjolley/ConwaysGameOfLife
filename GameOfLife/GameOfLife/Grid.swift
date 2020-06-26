@@ -143,6 +143,13 @@ class Grid {
         }
     }
     
+    func speedChanged(){
+        timer.invalidate()
+        timer = Timer.scheduledTimer(withTimeInterval: TimeInterval(speed), repeats: true, block: { (timer) in
+            self.run()
+        })
+    }
+    
     func run(){
         generations += 1
         computeNext()
